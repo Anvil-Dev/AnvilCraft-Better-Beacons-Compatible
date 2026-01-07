@@ -73,6 +73,7 @@ jobs:
           mod: build/libs/${{ steps.properties.outputs.mod_id }}-neoforge-${{ steps.version.outputs.version }}.jar
           extra-mods: |
             anvilcraft:1.21.1-1.5.0+hotfix.1572
+            cloth-config:15.0.140+neoforge
             cerbons-api:1.3.0
             cerbons-better-beacons:2.1.1
 
