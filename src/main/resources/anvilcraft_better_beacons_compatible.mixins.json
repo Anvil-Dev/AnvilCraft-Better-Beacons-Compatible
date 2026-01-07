@@ -1,9 +1,10 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "dev.anvilcraft.addon.template.mixin",
+  "package": "dev.anvilcraft.beacon.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "CerbonNewBeaconMenuMixin"
   ],
   "client": [
   ],

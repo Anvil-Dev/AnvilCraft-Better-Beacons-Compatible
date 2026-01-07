@@ -9,4 +9,8 @@ dependencies {
     // AnvilCraft
     implementation(libs.anvilcraft) { transitive = false }
     interfaceInjectionData(libs.anvilcraft) { transitive = false }
+
+    // CERBON's Better Beacons
+    implementation(libs.cerbonsApi)
+    implementation(libs.cerbonsBetterBeacons)
 }

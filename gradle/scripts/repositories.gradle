@@ -16,4 +16,11 @@ repositories {
             includeGroup "com.tterrag.registrate"
         }
     }
+    maven { // Modrinth File
+        name = "Modrinth Maven"
+        url = "https://api.modrinth.com/maven"
+        content {
+            includeGroup "maven.modrinth"
+        }
+    }
 }

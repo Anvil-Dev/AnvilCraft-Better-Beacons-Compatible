@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package dev.anvilcraft.addon.template.mixin;
+package dev.anvilcraft.beacon;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

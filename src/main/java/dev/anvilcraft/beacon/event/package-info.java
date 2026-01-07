@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package dev.anvilcraft.addon.template.data;
+package dev.anvilcraft.beacon.event;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

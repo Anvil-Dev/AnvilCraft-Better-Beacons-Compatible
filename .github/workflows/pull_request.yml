@@ -61,4 +61,7 @@ jobs:
         uses: Anvil-Dev/dedicated-server-launch-test@1.21.1-neoforge
         with:
           mod: build/libs/${{ steps.properties.outputs.mod_id }}-neoforge-${{ steps.version.outputs.version }}.jar
-          extra-mods: anvilcraft:1.21.1-1.5.0+hotfix.1572
+          extra-mods: |
+            anvilcraft:1.21.1-1.5.0+hotfix.1572
+            cerbons-api:1.3.0
+            cerbons-better-beacons:2.1.1
