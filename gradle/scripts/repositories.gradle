@@ -16,6 +16,10 @@ repositories {
             includeGroup "com.tterrag.registrate"
         }
     }
+    maven { // Cloth Config
+        name = "Shedaniel Maven"
+        url = "https://maven.shedaniel.me/"
+    }
     maven { // Modrinth File
         name = "Modrinth Maven"
         url = "https://api.modrinth.com/maven"

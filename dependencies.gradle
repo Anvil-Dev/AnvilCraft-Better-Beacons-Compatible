@@ -10,6 +10,9 @@ dependencies {
     implementation(libs.anvilcraft) { transitive = false }
     interfaceInjectionData(libs.anvilcraft) { transitive = false }
 
+    // Cloth Config
+    runtimeOnly(libs.clothConfig)
+
     // CERBON's Better Beacons
     implementation(libs.cerbonsApi)
     implementation(libs.cerbonsBetterBeacons)
